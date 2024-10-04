@@ -1,0 +1,2134 @@
+2024-10-04 12:16:08 UTC
+Windows-10-10.0.19045
+Ren'Py 8.3.2.24090902
+
+Early init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+
+File "game/characterClass.rpy", line 4: expected an indented block
+    def __init__(self, clan, params, skills, disciplines):
+     ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 14.81s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.02s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 146.57s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 159.03s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 161.00s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 191.39s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 193.84s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 215.14s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 216.52s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 1454, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 2540, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 733, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 1529, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+
+While processing text tag {'strength': 4, 'intellect': 1} in "{'strength': 4, 'intellect': 1}".:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+Resetting cache.
+Early init took 313.39s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 324.16s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 1454, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 2540, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 733, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 1529, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+
+While processing text tag {'strength': 4, 'intellect': 1} in "{'strength': 4, 'intellect': 1}".:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+Resetting cache.
+Early init took 328.89s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.18s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\screen.py", line 754, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 1454, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\display\layout.py", line 903, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 2540, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 733, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\text\text.py", line 1529, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+
+While processing text tag {'strength': 4, 'intellect': 1} in "{'strength': 4, 'intellect': 1}".:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params]"
+Exception: Unknown text tag "'strength': 4, 'intellect': 1"
+Resetting cache.
+Early init took 338.12s
+Loading error handling took 0.02s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+NameError: name 'strength' is not defined
+Resetting cache.
+Early init took 341.00s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+NameError: name 'strength' is not defined
+Resetting cache.
+Early init took 343.17s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+NameError: name 'strength' is not defined
+Resetting cache.
+Early init took 356.24s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+NameError: name 'strength' is not defined
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params[strength]]"
+NameError: name 'strength' is not defined
+Resetting cache.
+Early init took 370.68s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 400.88s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2249, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+
+While running game code:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 404.56s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2249, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+
+While running game code:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.25s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 502.60s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 503.85s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 505.56s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 519.32s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 520.52s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 522.24s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+TypeError: string indices must be integers
+
+While running game code:
+  File "game/script.rpy", line 41, in script
+    e "[mc_bruha.params['strength']]"
+TypeError: string indices must be integers
+Resetting cache.
+Early init took 579.73s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 582.30s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 648.95s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 42, in script
+    e "У тебя сила [mc_bruha.params[strength]], знание [mc_bruha.skills[knowledge]], дисциплина [mc_bruha.disc[power]]"
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1440, in __call__
+    what = self.prefix_suffix("what", self.what_prefix, what, self.what_suffix)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1354, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\character.py", line 1334, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'strength' is not defined
+
+While running game code:
+  File "game/script.rpy", line 42, in script
+    e "У тебя сила [mc_bruha.params[strength]], знание [mc_bruha.skills[knowledge]], дисциплина [mc_bruha.disc[power]]"
+NameError: name 'strength' is not defined
+Resetting cache.
+Early init took 683.86s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 770.22s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 909.40s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+Full traceback:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2235, in execute
+    self.set()
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\ast.py", line 2249, in set
+    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "D:\Downloads\scoped_dir12788_1210946646\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+
+While running game code:
+  File "game/script.rpy", line 30, in script
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+  File "game/script.rpy", line 30, in <module>
+    define mc_bruha = MainCharacter(clan="Бруха", params=params, skills=skills, disciplines=disciplines)
+NameError: name 'params' is not defined
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.24s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 925.90s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.16s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 939.63s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 997.46s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 7: invalid syntax
+        $ quantityDices = skill + param + modif + discipline 
+         ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1218.90s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 7: invalid syntax
+        global quantityDices = skill + param + modif + discipline 
+                              ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1219.90s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 7: invalid syntax
+        global quantityDices = skill + param + modif + discipline 
+                              ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1220.64s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 7: invalid syntax
+        global quantityDices = skill + param + modif + discipline 
+                              ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1280.97s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\zekra\\AppData\\Roaming/RenPy/backups\\Polygon':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1294.78s
+Loading error handling took 0.01s
+Loading script took 0.06s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.17s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.03s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
