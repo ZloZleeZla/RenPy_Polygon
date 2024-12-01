@@ -1,22 +1,32 @@
-# Класс главного персонажа
 class MainCharacter():
     # init вызывается при создании экземпляра класса
-    def __init__(self, clan, params, skills, disciplines):
+    def __init__(self, name, clan, generation, disciplines):
+        self.name = name
         self.clan = clan
-        self.params = params  # Параметры
-        self.skills = skills  # Навыки
-        self.disc = disciplines  # Дисциплины
-
-
-# Параметры, навыки и дисциплины представляются в виде словарей
-# params = {"strength": 4, "intellect": 1}
-# skills = {"brawler": 3, "fighting": 5, "knowledge": 1}
-# disciplines = {"power": 3, "resistance": 2}
-# bruha = MainCharacter(clan="Бруха", params=params,
-#                       skills=skills, disciplines=disciplines)
-
-
-# print(dir(bruha))
-# print(bruha.clan)
-# print(bruha.params["strength"])
-# print(bruha.disc["power"])
+        self.generation = generation
+        self.attributes = {
+            "Сила": 1,
+            "Ловкость": 1,
+            "Выносливость": 1,
+            "Харизма": 1,
+            "Манипулирование": 1,
+            "Внешность": 1,
+            "Внимательность": 1,
+            "Интеллект": 1,
+            "Смекалка": 1
+        }
+        self.skills = {
+            "Борьба": 1,
+            "Уклонение": 1,
+            "Устрашение": 1,
+            "Интриганство": 1,
+            "Стрельба": 1,
+            "Холодное оружие": 1,
+            "Безопасность": 1,
+            "Скрытность": 1,
+            "Компьютеры": 1,
+            "Финансы": 1,
+            "Обыск": 1,
+            "Ученость": 1
+        }  # Навыки
+        self.disciplines = disciplines  # Дисциплины

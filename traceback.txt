@@ -1,20 +1,89 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 63, in script
-    jump start
-Exception: Possible infinite loop.
+  File "game/script.rpy", line 265, in script
+    call screen character_sheet
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "game/script.rpy", line 181, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 181, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 184, in execute
+    frame:
+  File "game/script.rpy", line 189, in execute
+    vbox:
+  File "game/script.rpy", line 192, in execute
+    hbox:
+  File "game/script.rpy", line 194, in execute
+    text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
+AttributeError: 'MainCharacter' object has no attribute 'name'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 63, in script
-    jump start
-  File "D:\renpy-8.3.2-sdk\renpy\execution.py", line 61, in check_infinite_loop
-    raise Exception("Possible infinite loop.")
-Exception: Possible infinite loop.
+  File "game/script.rpy", line 265, in script
+    call screen character_sheet
+  File "D:\renpy-8.3.2-sdk\renpy\ast.py", line 1974, in execute
+    self.call("execute")
+  File "D:\renpy-8.3.2-sdk\renpy\ast.py", line 1953, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\renpy-8.3.2-sdk\renpy\statements.py", line 374, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "D:\renpy-8.3.2-sdk\renpy\exports\statementexports.py", line 345, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "D:\renpy-8.3.2-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/script.rpy", line 181, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 181, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 184, in execute
+    frame:
+  File "game/script.rpy", line 189, in execute
+    vbox:
+  File "game/script.rpy", line 192, in execute
+    hbox:
+  File "game/script.rpy", line 194, in execute
+    text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
+  File "D:\renpy-8.3.2-sdk\renpy\text\text.py", line 1999, in __init__
+    self.set_text(text, scope, substitute) # type: ignore
+  File "D:\renpy-8.3.2-sdk\renpy\text\text.py", line 2132, in set_text
+    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
+  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
+    s = interpolate(s, variables) # type: ignore
+  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "D:\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+AttributeError: 'MainCharacter' object has no attribute 'name'
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.2.24090902
 Polygon 1.0
-Sat Oct 26 16:20:48 2024
+Sun Dec  1 19:16:13 2024
