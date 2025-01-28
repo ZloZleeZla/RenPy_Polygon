@@ -1,28 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 265, in script
+  File "game/script.rpy", line 132, in script
     call screen character_sheet
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/script.rpy", line 181, in execute
+  File "game/script.rpy", line 42, in execute
     screen character_sheet():
-  File "game/script.rpy", line 181, in execute
+  File "game/script.rpy", line 42, in execute
     screen character_sheet():
-  File "game/script.rpy", line 184, in execute
+  File "game/script.rpy", line 45, in execute
     frame:
-  File "game/script.rpy", line 189, in execute
+  File "game/script.rpy", line 50, in execute
     vbox:
-  File "game/script.rpy", line 192, in execute
+  File "game/script.rpy", line 53, in execute
     hbox:
-  File "game/script.rpy", line 194, in execute
-    text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
-AttributeError: 'MainCharacter' object has no attribute 'name'
+  File "game/script.rpy", line 56, in execute
+    input:
+  File "game/script.rpy", line 56, in keywords
+    input:
+  File "game/script.rpy", line 59, in <module>
+    value FieldInputValue(bruha, name)  # Привязка к player.name
+NameError: name 'name' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 265, in script
+  File "game/script.rpy", line 132, in script
     call screen character_sheet
   File "D:\renpy-8.3.2-sdk\renpy\ast.py", line 1974, in execute
     self.call("execute")
@@ -54,36 +58,25 @@ Full traceback:
     self.update()
   File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 697, in update
     self.screen.function(**self.scope)
-  File "game/script.rpy", line 181, in execute
+  File "game/script.rpy", line 42, in execute
     screen character_sheet():
-  File "game/script.rpy", line 181, in execute
+  File "game/script.rpy", line 42, in execute
     screen character_sheet():
-  File "game/script.rpy", line 184, in execute
+  File "game/script.rpy", line 45, in execute
     frame:
-  File "game/script.rpy", line 189, in execute
+  File "game/script.rpy", line 50, in execute
     vbox:
-  File "game/script.rpy", line 192, in execute
+  File "game/script.rpy", line 53, in execute
     hbox:
-  File "game/script.rpy", line 194, in execute
-    text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
-  File "D:\renpy-8.3.2-sdk\renpy\text\text.py", line 1999, in __init__
-    self.set_text(text, scope, substitute) # type: ignore
-  File "D:\renpy-8.3.2-sdk\renpy\text\text.py", line 2132, in set_text
-    i, did_sub = renpy.substitutions.substitute(i, scope, substitute) # type: ignore
-  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 373, in substitute
-    s = interpolate(s, variables) # type: ignore
-  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 86, in interpolate
-    raise e
-  File "D:\renpy-8.3.2-sdk\renpy\substitutions.py", line 78, in interpolate
-    value = renpy.python.py_eval(code, {}, scope)
-  File "D:\renpy-8.3.2-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\renpy-8.3.2-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "<none>", line 1, in <module>
-AttributeError: 'MainCharacter' object has no attribute 'name'
+  File "game/script.rpy", line 56, in execute
+    input:
+  File "game/script.rpy", line 56, in keywords
+    input:
+  File "game/script.rpy", line 59, in <module>
+    value FieldInputValue(bruha, name)  # Привязка к player.name
+NameError: name 'name' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.2.24090902
-Polygon 1.0
-Sun Dec  1 19:16:13 2024
+charlist_vamp 1.0
+Tue Jan 28 21:46:59 2025

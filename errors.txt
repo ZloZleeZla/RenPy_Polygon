@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 58: end of line expected.
-    show lis_character
-    ^
+File "game/script.rpy", line 111: 'target' is not a keyword argument or valid child of the nearrect statement.
+    target "dropdown_button"
+          ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Oct 26 16:18:56 2024
+Tue Jan 28 22:34:02 2025

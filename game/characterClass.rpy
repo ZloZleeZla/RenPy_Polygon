@@ -1,8 +1,33 @@
 python:
     class MainCharacter():
     # init вызывается при создании экземпляра класса
-        def __init__(self, clan, params, skills, disciplines):
+        def __init__(self, name, clan, generation, disciplines):
+            self.name = name
             self.clan = clan
-            self.params = params  # Параметры
-            self.skills = skills  # Навыки
-            self.disc = disciplines  # Дисциплины
+            self.generation = generation
+            self.attributes = {
+                "Сила": 1,
+                "Ловкость": 1,
+                "Выносливость": 1,
+                "Харизма": 1,
+                "Манипулирование": 1,
+                "Внешность": 1,
+                "Внимательность": 1,
+                "Интеллект": 1,
+                "Смекалка": 1
+            }            
+            self.skills = {
+                "Борьба": 1,
+                "Уклонение": 1,
+                "Устрашение": 1,
+                "Интриганство": 1,
+                "Стрельба": 1,
+                "Холодное оружие": 1,
+                "Безопасность": 1,
+                "Скрытность": 1,
+                "Компьютеры": 1,
+                "Финансы": 1,
+                "Обыск": 1,
+                "Ученость": 1
+            }  # Навыки
+            self.disciplines = disciplines  # Дисциплины
