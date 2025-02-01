@@ -42,101 +42,167 @@ label start:
 
 
     # Определение экрана листа персонажа
-    screen character_sheet():
-        modal True
+    screen clan_choose:
+        vbox:
+            xpos 20
+            textbutton "Бруха": # 1
+                text_style "vtm_font_headers"
+                background "images/empty.jpeg"
+                action ToggleScreen("bruha_clan_info")
 
-        frame:
-            xfill True
-            yfill True
-            style_prefix "character_sheet"
+            # textbutton "Гангрел": # 2
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Носферату": # 3
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Тремор": # 4
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Малкавианен": # 5
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Тореадор": # 6
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Вентру": # 7
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Сетиты": # 8
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Цимисхи": # 9
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Ласомбра": # 10
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Равнос": # 11
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Ассамиты": # 12
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Джованни": # 13
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
+            # textbutton "Clan": 
+            #     text_style "vtm_font_headers"
+            #     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")] 
 
-            vbox:
-                spacing 20
-                # Имя клан поколение
-                hbox:
-                    spacing 20
-                    # text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
-                    text "Имя:" size 30 style "vtm_font_headers"# Текст слева по умолчанию сука
 
-                    hbox:
-                        xsize 180
-                        input:
-                            id "nameInput"
-                            style "vtm_font_headers"
-                            value FieldInputValue(bruha, 'name')  # Привязка к player.name
-                            length 10  # Максимальная длина
-                    text "Клан: [bruha.clan]" size 30 style "vtm_font_headers"
+    screen bruha_clan_info:
+        hbox:
+            xalign 0.2
+            text "Информация о Бруха"
+            add "images/Bruha.jpg"
 
-                    text "Поколение: [bruha.generation]" size 30 style "vtm_font_headers"
+    # screen character_sheet():
+    #     modal True
+
+    #     frame:
+    #         xfill True
+    #         yfill True
+    #         style_prefix "character_sheet"
+
+    #         vbox:
+    #             xpos 20
+    #             spacing 20
+    #             # Имя клан поколение
+    #             hbox:
+    #                 spacing 20
+    #                 # text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
+    #                 text "Имя:" size 30 style "vtm_font_headers"# Текст слева по умолчанию сука
+
+    #                 hbox:
+    #                     xsize 180
+    #                     input:
+    #                         id "nameInput"
+    #                         style "vtm_font_headers"
+    #                         value FieldInputValue(bruha, 'name')  # Привязка к player.name
+    #                         length 10  # Максимальная длина
+    #                 # text "Клан: [bruha.clan]" size 30 style "vtm_font_headers"
+
+
+    #                 textbutton "Выбрать клан   ":
+    #                     ypos -6
+    #                     text_style "vtm_font_headers"
+    #                     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")]
+
+
+
+    #                 text "Поколение: [bruha.generation]" size 30 style "vtm_font_headers"
                 
-                # Заголовок Атрибутов
-                text "Атрибуты" xalign 0.5 style "vtm_font_headers"
+    #             # Заголовок Атрибутов
+    #             text "Атрибуты" xalign 0.5 style "vtm_font_headers"
 
-                hbox:
-                    spacing 50
-                    for i in range(3):
-                        vbox:
-                            if i == 0:
-                                text "Физические" xalign 0.5 style "vtm_font_headers"
-                            elif i == 1:
-                                text "Социальные" xalign 0.5 style "vtm_font_headers"
-                            elif i == 2:
-                                text "Ментальные" xalign 0.5 style "vtm_font_headers"
-                            for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
-                                hbox:
-                                    text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-                                    hbox:
-                                        spacing 5
-                                        for i in range(5):  # максимум 5 точек
-                                            button:
-                                                style "dot_button"
-                                                selected i < value
-                                                action SetDict(bruha.attributes, attr, i + 1)
+    #             hbox:
+    #                 spacing 50
+    #                 for i in range(3):
+    #                     vbox:
+    #                         if i == 0:
+    #                             text "Физические" xalign 0.5 style "vtm_font_headers"
+    #                         elif i == 1:
+    #                             text "Социальные" xalign 0.5 style "vtm_font_headers"
+    #                         elif i == 2:
+    #                             text "Ментальные" xalign 0.5 style "vtm_font_headers"
+    #                         for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
+    #                             hbox:
+    #                                 text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+    #                                 hbox:
+    #                                     spacing 5
+    #                                     for i in range(5):  # максимум 5 точек
+    #                                         button:
+    #                                             style "dot_button"
+    #                                             selected i < value
+    #                                             action SetDict(bruha.attributes, attr, i + 1)
 
-                text "Умения" xalign 0.5 style "vtm_font_headers"
+    #             text "Умения" xalign 0.5 style "vtm_font_headers"
 
-                hbox:
-                    spacing 50
-                    for i in range(3):
-                        vbox:
-                            if i == 0:
-                                text "Таланты" xalign 0.5 style "vtm_font_headers"
-                            elif i == 1:
-                                text "Навыки" xalign 0.5 style "vtm_font_headers"
-                            elif i == 2:
-                                text "Знания" xalign 0.5 style "vtm_font_headers"
-                            for attr, value in itertools.islice(bruha.skills.items(), 0 + 4 * i, 4 + 4 * i):
-                                hbox:
-                                    text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-                                    hbox:
-                                        spacing 5
-                                        for i in range(5):
-                                            button:
-                                                style "dot_button"
-                                                selected i < value
-                                                action SetDict(bruha.skills, attr, i + 1)
+    #             hbox:
+    #                 spacing 50
+    #                 for i in range(3):
+    #                     vbox:
+    #                         if i == 0:
+    #                             text "Таланты" xalign 0.5 style "vtm_font_headers"
+    #                         elif i == 1:
+    #                             text "Навыки" xalign 0.5 style "vtm_font_headers"
+    #                         elif i == 2:
+    #                             text "Знания" xalign 0.5 style "vtm_font_headers"
+    #                         for attr, value in itertools.islice(bruha.skills.items(), 0 + 4 * i, 4 + 4 * i):
+    #                             hbox:
+    #                                 text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+    #                                 hbox:
+    #                                     spacing 5
+    #                                     for i in range(5):
+    #                                         button:
+    #                                             style "dot_button"
+    #                                             selected i < value
+    #                                             action SetDict(bruha.skills, attr, i + 1)
 
-                text "Дисциплины" xalign 0.5 style "vtm_font_headers"
+    #             text "Дисциплины" xalign 0.5 style "vtm_font_headers"
 
-                hbox:
-                    spacing 50
+    #             hbox:
+    #                 spacing 50
 
-                    for attr, value in bruha.disciplines.items():
-                        hbox:
-                            text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-                            hbox:
-                                spacing 5
-                                for i in range(5):
-                                    button:
-                                        style "dot_button"
-                                        selected i < value
-                                        action SetDict(bruha.disciplines, attr, i + 1)
+    #                 for attr, value in bruha.disciplines.items():
+    #                     hbox:
+    #                         text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+    #                         hbox:
+    #                             spacing 5
+    #                             for i in range(5):
+    #                                 button:
+    #                                     style "dot_button"
+    #                                     selected i < value
+    #                                     action SetDict(bruha.disciplines, attr, i + 1)
                                         
-                # textbutton "Сохранить" action save(bruha)
-                # textbutton "Закрыть" action Hide("character_sheet")
-                textbutton "Закрыть" action Return()
+    #             # textbutton "Сохранить" action save(bruha)
+    #             # textbutton "Закрыть" action Hide("character_sheet")
+    #             textbutton "Закрыть" action Return()
     
-    call screen character_sheet
+    # call screen character_sheet
+    call screen clan_choose
+
     jump testlb
 
 label testlb:

@@ -1,0 +1,92 @@
+Стилизация кнопок в Ren'Py
+В Ren'Py существует несколько способов задать стили для кнопок. Вот основные методы и их особенности:
+1. Определение стиля через style
+# Базовое определение стиля кнопки
+style custom_button:
+    background "#444444"  # Цвет фона
+    hover_background "#555555"  # Цвет при наведении
+    insensitive_background "#333333"  # Цвет неактивной кнопки
+    padding (20, 10)  # Отступы внутри кнопки
+    xsize 200  # Ширина кнопки
+    ysize 50   # Высота кнопки
+    
+# Стиль для текста внутри кнопки
+style custom_button_text:
+    color "#ffffff"  # Цвет текста
+    hover_color "#ffff00"  # Цвет текста при наведении
+    size 20  # Размер шрифта
+    font "DejaVuSans.ttf"  # Шрифт
+    align (0.5, 0.5)  # Выравнивание текста
+2. Использование стиля в screen
+screen example():
+    frame:
+        xalign 0.5
+        yalign 0.5
+        
+        vbox:
+            spacing 10
+            
+            # Применение стиля к кнопке
+            textbutton "Обычная кнопка":
+                style "custom_button"
+                action Return()
+            
+            # Inline стили
+            textbutton "Кнопка с inline стилями":
+                text_style "custom_button_text"
+                text_size 24
+                text_color "#ff0000"
+                background "#000000"
+                hover_background "#222222"
+                action Return()
+3. Стили с изображениями
+style image_button:
+    idle_background "images/button_idle.png"
+    hover_background "images/button_hover.png"
+    selected_background "images/button_selected.png"
+    insensitive_background "images/button_insensitive.png"
+4. Продвинутые свойства стилей
+style advanced_button:
+    background "#444444"
+    hover_background "#555555"
+    padding (20, 10)
+    xsize 200
+    ysize 50
+    
+    # Скругление углов (работает с Frame)
+    background Frame("images/button.png", 10, 10)
+    
+    # Трансформации
+    hover_transform Transform(zoom=1.1)
+    
+    # Анимация при наведении
+    hover_sound "audio/hover.ogg"
+    activate_sound "audio/click.ogg"
+    
+    # Тени и обводка для текста
+    text_outlines [ (2, "#000000", 0, 0) ]
+    text_drop_shadow (2, 2)
+    
+    # Позиционирование
+    xalign 0.5
+    yalign 0.5
+Важные моменты при стилизации кнопок:
+Для текстовых кнопок (textbutton) используются два стиля: основной и text_style
+Можно комбинировать определение стилей и inline свойства
+Для изображений можно использовать как прямые пути к файлам, так и ATL-трансформации
+Стили можно наследовать друг от друга
+5. Наследование стилей
+style custom_button_large is custom_button:
+    xsize 300
+    ysize 70
+    text_size 24
+
+style custom_button_small is custom_button:
+    xsize 150
+    ysize 40
+    text_size 16
+Дополнительные советы:
+Используйте hover_sound и activate_sound для добавления звуковой обратной связи
+Применяйте трансформации для создания анимированных эффектов
+Группируйте связанные стили вместе для удобства поддержки
+Используйте наследование стилей для создания вариаций базового стиля
