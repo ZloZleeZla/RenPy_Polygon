@@ -90,3 +90,122 @@ style custom_button_small is custom_button:
 Применяйте трансформации для создания анимированных эффектов
 Группируйте связанные стили вместе для удобства поддержки
 Используйте наследование стилей для создания вариаций базового стиля
+
+
+
+Добавление изображений в VBox и HBox в Ren'Py
+В Ren'Py существует несколько способов добавить изображения внутрь контейнеров VBox и HBox. Вот основные методы:
+1. Базовое добавление изображения
+screen example():
+    vbox:
+        spacing 10
+        xalign 0.5
+        yalign 0.5
+        
+        # Простое добавление изображения
+        add "images/character.png"
+        
+        # Изображение с размерами
+        add "images/icon.png" xsize 100 ysize 100
+2. Изображение с трансформациями
+screen character_display():
+    hbox:
+        spacing 20
+        
+        # Изображение с масштабированием
+        add "images/portrait.png":
+            zoom 0.8
+        
+        # Изображение с поворотом
+        add "images/weapon.png":
+            rotate 45
+            zoom 0.5
+3. Динамические изображения
+screen inventory():
+    $ item_image = "images/items/" + selected_item + ".png"
+    
+    vbox:
+        spacing 15
+        
+        # Динамическое изображение
+        add item_image:
+            size (150, 150)
+        
+        # Условное отображение
+        if has_special_item:
+            add "images/special_item.png"
+4. Стилизация изображений
+screen styled_images():
+    hbox:
+        spacing 10
+        
+        add "images/avatar.png":
+            # Размер
+            size (200, 200)
+            
+            # Позиционирование
+            xalign 0.5
+            yalign 0.5
+            
+            # Эффекты при наведении
+            hover_zoom 1.1
+            
+            # Анимация
+            at transform:
+                on hover:
+                    ease 0.2 zoom 1.1
+                on idle:
+                    ease 0.2 zoom 1.0
+5. Композиция изображений
+screen composite_example():
+    vbox:
+        spacing 20
+        
+        hbox:
+            spacing 10
+            
+            # Основное изображение
+            add "images/character_base.png"
+            
+            vbox:
+                spacing 5
+                # Дополнительные элементы
+                add "images/hat.png"
+                add "images/glasses.png"
+        
+        # Фоновое изображение
+        add "images/background.png":
+            fit "contain"
+Важные моменты при работе с изображениями:
+Используйте size или xsize/ysize для задания точных размеров
+Параметр spacing в VBox/HBox контролирует расстояние между элементами
+Трансформации (zoom, rotate) можно комбинировать
+Для адаптивности используйте fit с параметрами "contain" или "cover"
+Изображения можно делать интерактивными с помощью hover-эффектов
+6. Продвинутые техники
+screen advanced_image_layout():
+    hbox:
+        spacing 15
+        
+        # Изображение как кнопка
+        imagebutton:
+            idle "images/button_idle.png"
+            hover "images/button_hover.png"
+            action Return()
+            
+        # Изображение с маской
+        add AlphaMask("images/content.png", "images/mask.png"):
+            size (200, 200)
+            
+        # Изображение с эффектами
+        add "images/effect.png":
+            alpha 0.8
+            blur 2.0
+Дополнительные советы:
+Для отзывчивого дизайна используйте относительные размеры (0.5, 1.0)
+AlphaMask позволяет создавать сложные формы изображений
+Комбинируйте изображения с другими элементами для создания сложных интерфейсов
+Используйте условные конструкции для динамического отображения изображений
+
+
+
