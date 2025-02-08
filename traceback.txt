@@ -2,19 +2,46 @@
 
 While running game code:
   File "game/script.rpy", line 286, in script
-    call screen clan_choose
+    call screen character_sheet
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_control.rpy", line 172, in __call__
-    renpy.show_screen(self.screen, *self.args, **self.kwargs)
-Exception: Screen justified_text_example is not known.
-
+  File "game/script.rpy", line 179, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 179, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 182, in execute
+    frame:
+  File "game/script.rpy", line 187, in execute
+    vbox:
+  File "game/script.rpy", line 218, in execute
+    hbox:
+  File "game/script.rpy", line 220, in execute
+    for i in range(3):
+  File "game/script.rpy", line 221, in execute
+    vbox:
+  File "game/script.rpy", line 228, in execute
+    for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
+  File "game/script.rpy", line 229, in execute
+    hbox:
+  File "game/script.rpy", line 231, in execute
+    hbox:
+  File "game/script.rpy", line 233, in execute
+    for i in range(5):  # максимум 5 точек
+  File "game/script.rpy", line 234, in execute
+    button:
+  File "game/script.rpy", line 234, in keywords
+    button:
+  File "game/script.rpy", line 238, in <module>
+    action If(check_points(bruha.attributes, attr, i + 1),
+  File "game/script.rpy", line 10, in check_points
+    points -= 1
+UnboundLocalError: local variable 'points' referenced before assignment
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 286, in script
-    call screen clan_choose
+    call screen character_sheet
   File "D:\renpy-8.3.2-sdk\renpy\ast.py", line 1974, in execute
     self.call("execute")
   File "D:\renpy-8.3.2-sdk\renpy\ast.py", line 1953, in call
@@ -29,34 +56,55 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2215, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 3278, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "D:\renpy-8.3.2-sdk\renpy\display\layout.py", line 1294, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "D:\renpy-8.3.2-sdk\renpy\display\layout.py", line 1294, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "D:\renpy-8.3.2-sdk\renpy\display\layout.py", line 1294, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "D:\renpy-8.3.2-sdk\renpy\display\layout.py", line 1294, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "D:\renpy-8.3.2-sdk\renpy\display\layout.py", line 1294, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "D:\renpy-8.3.2-sdk\renpy\display\behavior.py", line 1180, in event
-    return handle_click(self.clicked)
-  File "D:\renpy-8.3.2-sdk\renpy\display\behavior.py", line 1101, in handle_click
-    rv = run(action)
-  File "D:\renpy-8.3.2-sdk\renpy\display\behavior.py", line 401, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_control.rpy", line 172, in __call__
-    renpy.show_screen(self.screen, *self.args, **self.kwargs)
-  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 1327, in show_screen
-    raise Exception("Screen %s is not known.\n" % (name[0],))
-Exception: Screen justified_text_example is not known.
-
+  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2745, in interact_core
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\displayable.py", line 434, in visit_all
+    d.visit_all(callback, seen)
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 480, in visit_all
+    callback(self)
+  File "D:\renpy-8.3.2-sdk\renpy\display\core.py", line 2745, in <lambda>
+    root_widget.visit_all(lambda d : d.per_interact())
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 491, in per_interact
+    self.update()
+  File "D:\renpy-8.3.2-sdk\renpy\display\screen.py", line 697, in update
+    self.screen.function(**self.scope)
+  File "game/script.rpy", line 179, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 179, in execute
+    screen character_sheet():
+  File "game/script.rpy", line 182, in execute
+    frame:
+  File "game/script.rpy", line 187, in execute
+    vbox:
+  File "game/script.rpy", line 218, in execute
+    hbox:
+  File "game/script.rpy", line 220, in execute
+    for i in range(3):
+  File "game/script.rpy", line 221, in execute
+    vbox:
+  File "game/script.rpy", line 228, in execute
+    for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
+  File "game/script.rpy", line 229, in execute
+    hbox:
+  File "game/script.rpy", line 231, in execute
+    hbox:
+  File "game/script.rpy", line 233, in execute
+    for i in range(5):  # максимум 5 точек
+  File "game/script.rpy", line 234, in execute
+    button:
+  File "game/script.rpy", line 234, in keywords
+    button:
+  File "game/script.rpy", line 238, in <module>
+    action If(check_points(bruha.attributes, attr, i + 1),
+  File "game/script.rpy", line 10, in check_points
+    points -= 1
+UnboundLocalError: local variable 'points' referenced before assignment
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.3.2.24090902
 charlist_vamp 1.0
-Sun Feb  2 22:30:05 2025
+Sat Feb  8 21:58:10 2025

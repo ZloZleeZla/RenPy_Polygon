@@ -1,8 +1,38 @@
 {
-    "files.exclude": {
-        "**/*.rpyc": true,
-        "**/*.rpa": true,
-        "**/*.rpymc": true,
-        "**/cache/": true
-    }
+  "files.exclude": {
+    "**/*.rpyc": true,
+    "**/*.rpa": true,
+    "**/*.rpymc": true,
+    "**/cache/": true
+  },
+  "cSpell.words": [
+    "bruha",
+    "Bruha",
+    "elif",
+    "itertools",
+    "testlb",
+    "VHBOX",
+    "VTMB",
+    "xalign",
+    "xfill",
+    "xmaximum",
+    "xminimum",
+    "xsize",
+    "yfill",
+    "ymaximum",
+    "yminimum",
+    "Ассамиты",
+    "Бруха",
+    "Вентру",
+    "Гангрел",
+    "Джованни",
+    "Ласомбра",
+    "Малкавианен",
+    "неонаты",
+    "Носферату",
+    "Равнос",
+    "расскоментировать",
+    "Сетиты",
+    "Цимисхи"
+  ]
 }

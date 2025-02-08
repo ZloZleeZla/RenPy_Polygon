@@ -3,11 +3,26 @@ init python:
     from characterClass import MainCharacter
     import itertools
 
+    def check_points(attributes, attr, i):
+        global points
+        if attributes[attr] >= i:
+            return False
+        else:
+            points -= 1
+            return True
+        # global points
+        # if points != 0:
+        #     points -= 1
+        #     return True
+        # else:
+        #     return False
+
 # Определение персонажей игры.
 define e = Character('Эйлин', color="#c8ffc8")
 
 default bruha = MainCharacter("", "Бруха", 13, {"Могущество":1, "Стойкость":1, "Стремительность":1})
 define VHBOX_TEXT_WIDTH = 320
+default points = 5
 
 # Игра начинается здесь:
 label start:
@@ -162,111 +177,114 @@ label start:
     # Определение экрана листа персонажа
 
 
-    # screen character_sheet():
-    #     modal True
+    screen character_sheet():
+        modal True
 
-    #     frame:
-    #         xfill True
-    #         yfill True
-    #         style_prefix "character_sheet"
+        frame:
+            xfill True
+            yfill True
+            style_prefix "character_sheet"
 
-    #         vbox:
-    #             xpos 20
-    #             spacing 20
-    #             # Имя клан поколение
-    #             hbox:
-    #                 spacing 20
-    #                 # text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
-    #                 text "Имя:" size 30 style "vtm_font_headers"# Текст слева по умолчанию сука
+            vbox:
+                xpos 20
+                spacing 20
+                # Имя клан поколение
+                hbox:
+                    spacing 20
+                    # text "Имя: [bruha.name]" size 30 style "vtm_font_headers"
+                    text "Имя:" size 30 style "vtm_font_headers"# Текст слева по умолчанию сука
 
-    #                 hbox:
-    #                     xsize 180
-    #                     input:
-    #                         id "nameInput"
-    #                         style "vtm_font_headers"
-    #                         value FieldInputValue(bruha, 'name')  # Привязка к player.name
-    #                         length 10  # Максимальная длина
-    #                 # text "Клан: [bruha.clan]" size 30 style "vtm_font_headers"
-
-
-    #                 textbutton "Выбрать клан   ":
-    #                     ypos -6
-    #                     text_style "vtm_font_headers"
-    #                     action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")]
+                    hbox:
+                        xsize 180
+                        input:
+                            id "nameInput"
+                            style "vtm_font_headers"
+                            value FieldInputValue(bruha, 'name')  # Привязка к player.name
+                            length 10  # Максимальная длина
+                    # text "Клан: [bruha.clan]" size 30 style "vtm_font_headers"
 
 
+                    textbutton "Выбрать клан   ":
+                        ypos -6
+                        text_style "vtm_font_headers"
+                        action [ToggleScreen("clan_choose"), ToggleScreen("character_sheet")]
 
-    #                 text "Поколение: [bruha.generation]" size 30 style "vtm_font_headers"
+
+
+                    text "Поколение: [bruha.generation]" size 30 style "vtm_font_headers"
                 
-    #             # Заголовок Атрибутов
-    #             text "Атрибуты" xalign 0.5 style "vtm_font_headers"
+                # Заголовок Атрибутов
+                text "Атрибуты" xalign 0.5 style "vtm_font_headers"
 
-    #             hbox:
-    #                 spacing 50
-    #                 for i in range(3):
-    #                     vbox:
-    #                         if i == 0:
-    #                             text "Физические" xalign 0.5 style "vtm_font_headers"
-    #                         elif i == 1:
-    #                             text "Социальные" xalign 0.5 style "vtm_font_headers"
-    #                         elif i == 2:
-    #                             text "Ментальные" xalign 0.5 style "vtm_font_headers"
-    #                         for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
-    #                             hbox:
-    #                                 text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-    #                                 hbox:
-    #                                     spacing 5
-    #                                     for i in range(5):  # максимум 5 точек
-    #                                         button:
-    #                                             style "dot_button"
-    #                                             selected i < value
-    #                                             action SetDict(bruha.attributes, attr, i + 1)
+                hbox:
+                    spacing 50
+                    for i in range(3):
+                        vbox:
+                            if i == 0:
+                                text "Физические [points]" xalign 0.5 style "vtm_font_headers"
+                            elif i == 1:
+                                text "Социальные [points]" xalign 0.5 style "vtm_font_headers"
+                            elif i == 2:
+                                text "Ментальные [points]" xalign 0.5 style "vtm_font_headers"
+                            for attr, value in itertools.islice(bruha.attributes.items(), 0 + 3 * i, 3 + 3 * i):
+                                hbox:
+                                    text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+                                    hbox:
+                                        spacing 5
+                                        for i in range(5):  # максимум 5 точек
+                                            button:
+                                                style "dot_button"
+                                                selected i < value
+                                                # sensitive(points > 3)
+                                                action If(check_points(bruha.attributes, attr, i + 1), 
+                                                true=SetDict(bruha.attributes, attr, i + 1))
 
-    #             text "Умения" xalign 0.5 style "vtm_font_headers"
+                text "Умения" xalign 0.5 style "vtm_font_headers"
 
-    #             hbox:
-    #                 spacing 50
-    #                 for i in range(3):
-    #                     vbox:
-    #                         if i == 0:
-    #                             text "Таланты" xalign 0.5 style "vtm_font_headers"
-    #                         elif i == 1:
-    #                             text "Навыки" xalign 0.5 style "vtm_font_headers"
-    #                         elif i == 2:
-    #                             text "Знания" xalign 0.5 style "vtm_font_headers"
-    #                         for attr, value in itertools.islice(bruha.skills.items(), 0 + 4 * i, 4 + 4 * i):
-    #                             hbox:
-    #                                 text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-    #                                 hbox:
-    #                                     spacing 5
-    #                                     for i in range(5):
-    #                                         button:
-    #                                             style "dot_button"
-    #                                             selected i < value
-    #                                             action SetDict(bruha.skills, attr, i + 1)
+                hbox:
+                    spacing 50
+                    for i in range(3):
+                        vbox:
+                            if i == 0:
+                                text "Таланты" xalign 0.5 style "vtm_font_headers"
+                            elif i == 1:
+                                text "Навыки" xalign 0.5 style "vtm_font_headers"
+                            elif i == 2:
+                                text "Знания" xalign 0.5 style "vtm_font_headers"
+                            for attr, value in itertools.islice(bruha.skills.items(), 0 + 4 * i, 4 + 4 * i):
+                                hbox:
+                                    text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+                                    hbox:
+                                        spacing 5
+                                        for i in range(5):
+                                            button:
+                                                style "dot_button"
+                                                selected i < value
+                                                action SetDict(bruha.skills, attr, i + 1)
 
-    #             text "Дисциплины" xalign 0.5 style "vtm_font_headers"
+                text "Дисциплины" xalign 0.5 style "vtm_font_headers"
 
-    #             hbox:
-    #                 spacing 50
+                hbox:
+                    spacing 50
 
-    #                 for attr, value in bruha.disciplines.items():
-    #                     hbox:
-    #                         text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
-    #                         hbox:
-    #                             spacing 5
-    #                             for i in range(5):
-    #                                 button:
-    #                                     style "dot_button"
-    #                                     selected i < value
-    #                                     action SetDict(bruha.disciplines, attr, i + 1)
+                    for attr, value in bruha.disciplines.items():
+                        hbox:
+                            text "[attr]" min_width VHBOX_TEXT_WIDTH style "vtm_font"
+                            hbox:
+                                spacing 5
+                                for i in range(5):
+                                    button:
+                                        style "dot_button"
+                                        selected i < value
+                                        action SetDict(bruha.disciplines, attr, i + 1)
                                         
-    #             # textbutton "Сохранить" action save(bruha)
-    #             # textbutton "Закрыть" action Hide("character_sheet")
-    #             textbutton "Закрыть" action Return()
+                # textbutton "Сохранить" action save(bruha)
+                # textbutton "Закрыть" action Hide("character_sheet")
+                textbutton "Закрыть" action Return()
     
-    # call screen character_sheet
-    call screen clan_choose
+    define points = 5
+    call screen character_sheet
+    # call screen clan_choose
 
     jump testlb
 
