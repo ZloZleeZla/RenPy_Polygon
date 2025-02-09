@@ -5,17 +5,29 @@ init python:
 
     def check_points(attributes, attr, i):
         global points
-        if attributes[attr] >= i:
-            return False
-        else:
-            points -= 1
-            return True
+        if points > 0:
+            if attributes[attr] < i:
+                points -= 1
+                return True
+            else:
+                return False
         # global points
         # if points != 0:
         #     points -= 1
         #     return True
         # else:
         #     return False
+
+    def setDictMy(attributes, attr, i):
+        global points
+        if points > 0:
+            if attributes[attr] < i:
+                points -= 1
+                attributes[attr] += 1
+                return True
+            else:
+                return False
+        
 
 # Определение персонажей игры.
 define e = Character('Эйлин', color="#c8ffc8")
@@ -236,8 +248,16 @@ label start:
                                                 style "dot_button"
                                                 selected i < value
                                                 # sensitive(points > 3)
-                                                action If(check_points(bruha.attributes, attr, i + 1), 
-                                                true=SetDict(bruha.attributes, attr, i + 1))
+
+                                                # action If(check_points(bruha.attributes, attr, i + 1),
+                                                # true=SetDict(bruha.attributes, attr, i + 1))
+
+                                                action If( i + 1 > bruha.attributes[attr], 
+                                                [SetVariable("points", points-1), SetDict(bruha.attributes, attr, i + 1)], 
+                                                If(i + 1 < bruha.attributes[attr],
+                                                [SetVariable("points", points+1), SetDict(bruha.attributes, attr, i + 1)]))
+
+                                                # action setDictMy(bruha.attributes, attr, i + 1)
 
                 text "Умения" xalign 0.5 style "vtm_font_headers"
 
